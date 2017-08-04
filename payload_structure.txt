@@ -1,0 +1,162 @@
+AMR Payload Structure(RFC 4867)
+   +----------------+-------------------+----------------
+   | payload header | table of contents | speech data ...
+   +----------------+-------------------+----------------
+
+AMR 有OA mode和BE mode，2种mode的payload格式不同
+
+1. for Bandwidth-Efficient Mode
+1.1 payload header为4 bit的CMR
+    0 1 2 3
+   +-+-+-+-+
+   |  CMR  |
+   +-+-+-+-+
+CMR value 0~7 for AMR
+CMR value 0~8 for AMR-WB
+CMR value 15 indicates that no mode request is present
+
+1.2 The Payload Table of Contents
+   The table of contents (ToC) consists of a list of ToC entries, each
+   representing a speech frame.
+   
+    0 1 2 3 4 5
+   +-+-+-+-+-+-+
+   |F|  FT   |Q|
+   +-+-+-+-+-+-+
+
+   F (1 bit): If set to 1, indicates that this frame is followed by
+      another speech frame in this payload; if set to 0, indicates that
+      this frame is the last frame in this payload.
+
+   FT (4 bits): Frame type index, indicating either the AMR or AMR-WB
+      speech coding mode or comfort noise (SID) mode of the
+      corresponding frame carried in this payload.
+
+2. for Octet-Aligned Mode
+2.1 payload header
+ILL 和ILP are optinal
+    0                   1
+    0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5
+   +-+-+-+-+-+-+-+-+- - - - - - - -
+   |  CMR  |R|R|R|R|  ILL  |  ILP  |
+   +-+-+-+-+-+-+-+-+- - - - - - - -
+2.2  The Payload Table of Contents
+   +---------------------+
+   | list of ToC entries |
+   +---------------------+
+   | list of frame CRCs  | (optional)
+---------------------------------------------------------------------
+audio frame 帧的处理：
+
+1. 下行：
+cp media从网络接收到帧，通过amr_payload.c的AmrpayloadProcess，将packet做decap(分OA和BE mode，如果一个packet包含多个frame的话，会拆包），然后插入neteq里面
+cp audio向neteq读帧时，neteq通过amr_payload.c的unpackAmrFrame，将帧unpack成amrFrameInfo_ts格式返回给cp audio
+
+2. 上行：
+cp audio 通过回调amrTxCallBack，将帧(amrFrameInfo_ts格式)发给cp media, cp media将amrFrameInfo_ts发给AucEncoder::packAMRFrame做pack处理（将amrFrameInfo_ts格式转换）。
+处理完发给rtpwriter， rtpwrite调AMRRTPAssembler的assembleFrame将帧cap(分OA和BEmode，加上payload header)，然后通过socket发送出去
+
+---------------------------------------------------------------------
+
+const uint16_t AmrBits[]={95,103,118,134,148,159,204,244,39,FT_Invalid,FT_Invalid,FT_Invalid,FT_Invalid,
+                             FT_Invalid, FT_Invalid,0};
+const uint16_t AmrWBBits[]={132,177,253,285,317,365,397,461,477,40,FT_Invalid,FT_Invalid,FT_Invalid,
+                             FT_Invalid, FT_Invalid,0};
+
+// AMR-NB CLASS A/B/C
+const int32_t kAMRNBClassABits[16] = { 42, 49, 55, 58, 61, 75, 65, 81, 39, 43, 38, 37, 0, 0, 0, 0 };
+const int32_t kAMRNBClassBBits[16] = { 53, 54, 63, 76, 87, 84, 99, 103, 0, 0, 0, 0, 0, 0, 0, 0 };
+const int32_t kAMRNBClassCBits[16] = { 0, 0, 0, 0, 0, 0, 40, 60, 0, 0, 0,
+        0, 0, 0, 0, 0 };
+
+// AMR-WB CLASS A/B/C
+const int32_t kAMRWBClassABits[16] = { 54, 64,  72,  72,  72,  72,  72,  72,  72, 40, 0, 0, 0, 0, 0, 0 };
+const int32_t kAMRWBClassBBits[16] = { 78, 113, 181, 213, 245, 293, 325, 389, 405, 0, 0, 0, 0, 0, 0, 0 };
+const int32_t kAMRWBClassCBits[16] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+---------------------------------------------------------------------
+
+----FT for AMR----
+Frame Type
+Mode Indication	
+Mode Request	
+Frame content (AMR mode, comfort noise, or other)
+0	0	0	AMR 4,75 kbit/s 
+1	1	1	AMR 5,15 kbit/s 
+2	2	2	AMR 5,90 kbit/s 
+3	3	3	AMR 6,70 kbit/s (PDC-EFR)
+4	4	4	AMR 7,40 kbit/s (TDMA-EFR)
+5	5	5	AMR 7,95 kbit/s 
+6	6	6	AMR 10,2 kbit/s 
+7	7	7	AMR 12,2 kbit/s (GSM-EFR)
+8	-	-	AMR SID
+9	-	-	GSM-EFR SID
+10	-	-	TDMA-EFR SID 
+11	-	-	PDC-EFR SID
+12-14	-	-	For future use
+15	-	-	No Data (No transmission/No reception) 
+
+----FT for AMRWB----
+Frame Type Index	
+Mode Indication	
+Mode Request	
+Frame content (AMR-WB mode, comfort noise, or other)
+0	0	0	AMR-WB 6.60 kbit/s 
+1	1	1	AMR-WB 8.85 kbit/s 
+2	2	2	AMR-WB 12.65 kbit/s 
+3	3	3	AMR-WB 14.25 kbit/s 
+4	4	4	AMR-WB 15.85 kbit/s 
+5	5	5	AMR-WB 18.25 kbit/s 
+6	6	6	AMR-WB 19.85 kbit/s 
+7	7	7	AMR-WB 23.05 kbit/s 
+8	8	8	AMR-WB 23.85 kbit/s
+9	-	-	AMR-WB SID (Comfort Noise Frame)
+10-13	-	-	For future use
+14	-	-	speech lost
+15	-	-	No Data (No transmission/No reception)
+	-	-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

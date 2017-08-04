@@ -1,0 +1,60 @@
+   An SDP session description consists of a session-level section
+   followed by zero or more media-level sections.  The session-level
+   part starts with a "v=" line and continues to the first media-level
+   section.  Each media-level section starts with an "m=" line and
+   continues to the next media-level section or end of the whole session
+   description.  In general, session-level values are the default for
+   all media unless overridden by an equivalent media-level value.
+
+   Some lines in each description are REQUIRED and some are OPTIONAL,
+   but all MUST appear in exactly the order given here (the fixed order
+   greatly enhances error detection and allows for a simple parser).
+   OPTIONAL items are marked with a "*".
+   
+      Session description
+         v=  (protocol version)
+         o=  (originator and session identifier)
+         s=  (session name)
+         i=* (session information)
+         u=* (URI of description)
+         e=* (email address)
+         p=* (phone number)
+         c=* (connection information -- not required if included in
+              all media)
+         b=* (zero or more bandwidth information lines)
+         One or more time descriptions ("t=" and "r=" lines; see below)
+         z=* (time zone adjustments)
+         k=* (encryption key)
+         a=* (zero or more session attribute lines)
+         Zero or more media descriptions
+
+      Time description
+         t=  (time the session is active)
+         r=* (zero or more repeat times)
+
+      Media description, if present
+         m=  (media name and transport address)
+         i=* (media title)
+         c=* (connection information -- optional if included at
+              session level)
+         b=* (zero or more bandwidth information lines)
+         k=* (encryption key)
+         a=* (zero or more media attribute lines)
+
+
+   An example SDP description is:
+
+      v=0
+      o=jdoe 2890844526 2890842807 IN IP4 10.47.16.5
+      s=SDP Seminar
+      i=A Seminar on the session description protocol
+      u=http://www.example.com/seminars/sdp.pdf
+      e=j.doe@example.com (Jane Doe)
+      c=IN IP4 224.2.17.12/127
+      t=2873397496 2873404696
+      a=recvonly
+      m=audio 49170 RTP/AVP 0
+      m=video 51372 RTP/AVP 99
+      a=rtpmap:99 h263-1998/90000
+
+
