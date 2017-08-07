@@ -58,3 +58,38 @@
       a=rtpmap:99 h263-1998/90000
 
 
+v=0
+o=Example_SERVER 3413526809 0 IN IP4 server.example.com
+s=Example of using AS in MTSI
+c=IN IP4 aaa.bbb.ccc.ddd
+b=AS:345
+t=0 0
+a=tcap:1 RTP/AVPF
+m=audio 49152 RTP/AVP 97 98
+a=pcfg:1 t=1
+b=AS:30
+b=RS:0
+b=RR:4000
+a=rtpmap:97 AMR/8000/1
+a=fmtp:97 mode-change-capability=2; max-red=220
+a=rtpmap:98 AMR/8000/1
+a=fmtp:98 mode-change-capability=2; max-red=220; octet-align=1
+a=ptime:20
+a=maxptime:240
+m=video 49154 RTP/AVP 99
+a=pcfg:1 t=1
+b=AS:315
+b=RS:0
+b=RR:5000
+a=rtpmap:99 H264/90000
+a=fmtp:99 packetization-mode=0; profile-level-id=42e00c; \
+     sprop-parameter-sets=J0LgDJWgUH6Af1A=,KM46gA==
+a=rtcp-fb:* trr-int 5000
+a=rtcp-fb:* nack
+a=rtcp-fb:* nack pli
+a=rtcp-fb:* ccm fir
+a=rtcp-fb:* ccm tmmbr
+a=extmap:4 urn:3gpp:video-orientation
+
+
+
