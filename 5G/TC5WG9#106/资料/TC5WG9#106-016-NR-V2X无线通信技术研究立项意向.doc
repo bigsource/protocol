@@ -1,0 +1,198 @@
+ <html xmlns:o="urn:schemas-microsoft-com:office:office"
+		xmlns:w="urn:schemas-microsoft-com:office:word"
+		xmlns="http://www.w3.org/TR/REC-html40"><style type="text/css">
+table{table-layout:   fixed;}
+td{word-break:   break-all;   word-wrap:break-word;} 
+</style> 
+<table border="0" cellspacing="0" cellpadding="0" align="center" width="700">
+<tr><td align="center">研究课题项目建议书</td></tr>
+</table><br><br>
+<table border="1" cellspacing="0" cellpadding="0" align="center" width="710">
+    <tbody>
+        <tr>
+            <td  >
+            <div align="center">建议项目名称<br>(中文)</div>
+            </td>
+            <td width="250" colspan="2">NR-V2X无线通信技术研究            </td>
+            <td >
+            <div align="center">建议项目名称<br>
+            (英文)</div>
+            </td>
+            <td width="250">Study on NR-V2X Wireless  Communication Technique            </td>
+        </tr>
+        <tr>
+            <td  height="50" width="100">
+            <div align="center">制定或修订</div>
+            </td>
+            <td width="175">■              <!--<input name="checkbox" type="checkbox" value="checkbox" checked>-->
+              制定</td>
+             <td width="175"> <!--<input name="checkbox2" type="checkbox" value="checkbox" >修订</td>-->
+             □修订</td>
+            <td  width="100">
+            <div align="center">被修订编号</div>
+            </td>
+            <td width="250" >            </td>
+        </tr>
+        <tr>
+            <td  >
+            <div align="center">对应国际标准<br>名称(中文)</div>
+            </td>
+            <td width="250" colspan="2">
+                        </td>
+            <td >
+            <div align="center">对应国际标准<br>名称(英文)</div>
+            </td>
+            <td width="250">
+                        </td>
+        </tr>
+        <tr>
+            <td  height="30">
+            <div align="center">项目分类</div>
+            </td>
+            <!--
+            <td width="200"><input name="checkbox2" type="checkbox" value="checkbox" >技术报告</td>
+            <td width="200"><input name="checkbox2" type="checkbox" value="checkbox" checked>研究课题</td>
+            -->
+            <td width="175">□协会标准</td>
+            <td width="175">■研究课题</td>
+            <td >
+            <div align="center">完成年限</div>
+            </td>
+            <td width="250">
+            2020            </td>
+        </tr>
+        <tr>
+            <td  height="50">
+            <div align="center">所属领域</div>
+            </td>
+            <td width="250" colspan="2">
+            &nbsp;移动通信-蜂窝通信-终端直连通信-车联网            </td>
+            <td >
+            <div align="center">技术工作委员会/工作组</div>
+            </td>
+            <td width="250">
+            &nbsp;无线通信/移动通信无线&nbsp;            </td>
+        </tr>
+        <tr>
+            <td  height="30">
+            <div align="center">牵头单位</div>
+            </td>
+            <td  colspan="4" width="600">
+            <div>OPPO广东移动通信有限公司&nbsp;中国移动通信集团有限公司&nbsp;中国信息通信研究院&nbsp;高通无线通信技术(中国)有限公司&nbsp;中国联合网络通信集团有限公司&nbsp;</div>
+            </td>
+        </tr>
+        <tr>
+            <td  height="30">
+            <div align="center">参加单位</div>
+            </td>
+            <td  colspan="4" width="600">
+            <div>中国电信集团有限公司&nbsp;中兴通讯股份有限公司&nbsp;大唐电信科技产业集团（电信科学技术研究院）&nbsp;华为技术有限公司&nbsp;</div>
+            </td>
+        </tr>
+        <tr>
+            <td  >
+            <div align="center">目的、意义或必要性</div>
+            </td>
+            <td colspan="4" width="600">
+            &nbsp;&nbsp;&nbsp;智能交通和自动驾驶作为5G移动通信最重要的一个垂直行业应用，已经得到全球众多企业、公司、研究机构、政府机构等巨大投入，预期在未来几年必将是拉动包含移动通信、交通行业、汽车制造等多个行业的数字化转型和产业升级的巨大引擎。中国政府更是把智能交通和自动驾驶作为国家战略层面进行培育和发展，使之成为拉动国民经济的一个最具发展空间和竞争力的巨大产业。<br />
+车联网通过车车/车路/车人/车云之间的通信和信息交换，实现智能动态信息服务、车辆智能化控制和智能化交通管理等应用。基于LTE的V2X（LTE-V2X）无线通信技术的3GPP标准化工作已经成熟和稳定。LTE-V2X的国内CCSA行标也已经于2019年制定完成。国内外芯片制造商、车载模组制造商、系统设备制造商、车企等都在进行LTE-V2X的设备研制，并积极进行互联互通的测试以及场地模拟的技术试验，LTE-V2X的产业正在如火如荼的进行中。<br />
+考虑到5G移动通信技术相比4G有了巨大的性能增强，5G移动通信网络已经在全球商用部署。特别是在中国，三大运营商于2020年上半年启动了大规模的5G网络建设，且下半年会快速演进为5G独立组网（SA）方式，来更好地支持和满足垂直行业的业务和应用。基于5G新空口的3GPP&nbsp;R16的NR-V2X标准工作已经接近尾声，预计在2020年6月份完成并发布。NR-V2X&nbsp;相比&nbsp;LTE-V2X在支持的业务速率、容量、时延、可靠性、资源利用率等方面都有了显著增强。因此急需启动针对NR-V2X通信技术的研究，用于对未来基于5G通信技术的车联网提供技术方案支撑和指导。同时也为国内外的NR-V2X领域的芯片制造商、设备制造商、车企、网络运营商、测试认证机构在技术方案、组网场景、业务模型、业务需求、技术指标、设备规格、频谱部署共存等方面提供参考和指导。<br />
+<br />
+            </td>
+        </tr>
+        <tr>
+            <td  >
+            <div align="center">研究范围和<br>主要技术内容<br>及国内外情况<br>的简要说明</div>
+            </td>
+            <td  colspan="4" width="600">
+            &nbsp;本项目在3GPP&nbsp;R16&nbsp;V2X标准协议框架基础下，主要开展如下几个方面内容的研究：<br />
+1）	研究NR-V2X的组网场景、典型业务需求和业务模型；<br />
+2）	制定NR-V2X的无线通信协议功能要求和关键技术指标；<br />
+3）	NR-V2X的物理层关键技术研究；<br />
+4）	NR-V2X的高层关键技术的研究<br />
+5）	研究NR-V2X与LTE-V2X&nbsp;共存方案；<br />
+其中针对通信协议的研究内容，重点聚焦在无线链路性能提升方面，包括如吞吐量、时延、可靠性、传输效率、干扰检测、资源管理与调度、资源冲突缓解、参考信号与底层信道优化设计、控制面信令流程优化等。<br />
+&nbsp;&nbsp;&nbsp;&nbsp;本项目研究成果可作为3GPP&nbsp;R17&nbsp;NR-V2X项目的有价值的输入，同时也可以为国内外NR-V2X的芯片制造商、设备制造商、网络运营商、测试认证机构及应用单位提供技术参考。<br />
+<br />
+<br>基于5G新空口的3GPP&nbsp;R16的NR-V2X标准工作已经接近尾声，预计在2020年6月份完成并发布。<br />
+&nbsp;&nbsp;&nbsp;国内IMT-2020工作组和Future移动通信论坛有NR-V2X的相关研究项目，但CCSA还未启动针对NR-V2X的标准项目的研究工作。<br />
+<br />
+            </td>
+        </tr>
+        <tr>
+            <td  >
+            <div align="center">附议单位<br>（3个以上）</div>
+            </td>
+            <td  colspan="4" width="600">
+            &nbsp;            </td>
+        </tr>
+        <tr>
+            <td  >
+            <div align="center">参加单位意见</div>
+            </td>
+            <td  colspan="4" width="600">
+            <div>&nbsp;</div>
+            <div align="right">年&nbsp;&nbsp;&nbsp; 月&nbsp;&nbsp;&nbsp; 日</div>
+            </td>
+        </tr>
+        <tr>
+            <td >
+            <div align="center">工作组意见</div>
+            </td>
+            <td  colspan="4" width="600">
+            <div>&nbsp;</div>
+            <div align="right">年&nbsp;&nbsp;&nbsp; 月&nbsp;&nbsp;&nbsp;日</div>
+            </td>
+        </tr>
+        <tr>
+            <td >
+            <div align="center">技术工作委员会意见</div>
+            </td>
+            <td colspan="4" width="600">
+            <div>&nbsp;</div>
+            <div align="right">年&nbsp;&nbsp;&nbsp;月&nbsp;&nbsp;&nbsp;日</div>
+            </td>
+        </tr>
+        <tr>
+            <td  >
+            <div align="center">协会意见</div>
+            </td>
+            <td  colspan="4" width="600">
+            <div>&nbsp;</div>
+            <div align="right">年&nbsp;&nbsp;&nbsp;月&nbsp;&nbsp;&nbsp;日</div>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2" >
+            <div align="center">牵头单位信息</div>
+            </td>
+            <td width="150" height="50">
+            <div>单位名称OPPO广东移动通信有限公司</div>
+            </td>
+            <td width="150">
+            <div>联系人：</div>
+            </td>
+            <td  colspan="2">
+            <div>联系方式：-</div>
+            </td>
+        </tr>
+        <tr>
+            <td width="150" height="50">
+            <div>项目负责人：苏进喜</div>
+            </td>
+            <td width="150">
+            <div>联系方式：13621019728-sujinxi@oppo.com</div>
+            </td>
+            <td  colspan="2">
+            <div>标准化人员证书编号：</div>
+            </td>
+        </tr>
+        <tr>
+            <td  >
+            <div align="center">备注</div>
+            </td>
+            <td  colspan="4" width="600">
+            &nbsp;            </td>
+        </tr>
+    </tbody>
+</table></html>

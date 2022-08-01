@@ -1,0 +1,240 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+		xmlns:w="urn:schemas-microsoft-com:office:word"
+		xmlns="http://www.w3.org/TR/REC-html40"><style type="text/css">
+table{table-layout:   fixed;}
+td{word-break:   break-all;   word-wrap:break-word;} 
+</style> 
+<table border="0" cellspacing="0" cellpadding="0" align="center" width="700">
+<tr><td align="center">行业标准项目建议书</td></tr>
+</table><br><br> 
+<table border="1" cellspacing="0" cellpadding="0" align="center" width="700">
+        <tr>
+            <td >
+              <div align="center">建议项目名称<br>(中文)</div></td>
+            <td width="250" colspan="3" align="center">&nbsp;5G终端基于NR的语音解决方案（VoNR）测试方法            </td>
+            <td >
+            <div align="center">建议项目名称<br>(英文)</div>
+            </td>
+            <td  colspan="2" align="center">&nbsp;Test Method for User Equipment of Voice over NR            </td>
+        </tr>
+        <tr>
+            <td  height="25">
+            <div align="center">制定或修订</div></td>
+            <td width="80" >
+            <div>
+              <!--<input name="checkbox" type="checkbox" value="checkbox" checked  >-->
+              ■              制定</div>
+            </td>
+            <td width="170" colspan="2" >
+            <div>
+              <!--<input name="checkbox2" type="checkbox" value="checkbox" >-->
+              □              修订</div>
+            </td>
+            <td >
+            <div align="center">被修订标准号</div>
+            </td>
+            <td  colspan="2">
+            <div align="center">&nbsp;</div>
+            </td>
+        </tr>
+        <tr>
+            <td  height="25" width="100">
+          <div align="center">采用程度</div>          </td>
+            <td width="80">
+            <div>
+              <!--<input name="checkbox5" type="checkbox" value="checkbox" >-->
+              □              IDT</div>
+            </td>
+            <td width="85">
+            <div>
+              <!--<input name="checkbox6" type="checkbox" value="checkbox" >-->
+              □              MOD</div>
+            </td>
+            <td width="85">
+            <div>
+              <!--<input name="checkbox7" type="checkbox" value="checkbox" >-->
+              □              NEQ</div>
+            </td>
+            <td width="100">
+            <div align="center">采标号</div>
+            </td>
+            <td  colspan="2">
+            <div align="center">&nbsp;</div>
+            </td>
+        </tr>
+        <tr>
+            <td  >
+              <div align="center">国际标准名称<br>(中文)</div></td>
+            <td width="250" colspan="3">
+            &nbsp;
+            </td>
+            <td >
+            <div align="center">国际标准名称<br>(英文)</div>
+            </td>
+            <td colspan="2">
+            &nbsp;            </td>
+        </tr>
+        <tr>
+            <td  height="25">
+            <div align="center">采用快速程序</div>
+            </td>
+            <td width="250" colspan="3">
+            <div>
+              <!--<input name="checkbox8" type="checkbox" value="checkbox" >-->
+              □              FTP</div>
+            </td>
+            <td >
+            <div align="center">快速程序代码</div>
+            </td>
+            <td width="125">
+            <div>
+             <!-- <input name="checkbox3" type="checkbox" value="checkbox" > -->
+              □ 
+              B</div>
+            </td>
+            <td >
+            <div>
+              <!--<input name="checkbox4" type="checkbox" value="checkbox" >-->
+              □ 
+              C</div>
+            </td>
+        </tr>
+        <tr>
+            <td  height="25">
+            <div align="center">ICS分类号</div>
+            </td>
+            <td width="250" colspan="3">
+            &nbsp;33.060.20            </td>
+            <td >
+            <div align="center">中国标准分类号</div>
+            </td>
+            <td width="250" colspan="2">
+            &nbsp;M36            </td>
+        </tr>
+        <tr>
+            <td  height="25">
+            <div align="center">牵头单位</div>
+            </td>
+            <td width="250" colspan="3">
+            &nbsp;中国联合网络通信集团有限公司&nbsp;中国电信集团有限公司&nbsp;中国移动通信集团有限公司&nbsp;中国信息通信研究院&nbsp;            </td>
+            <td >
+            <div align="center">完成年限</div>
+            </td>
+            <td width="250" colspan="2">
+            &nbsp;2021            </td>
+        </tr>
+        <tr>
+            <td  height="25">
+            <div align="center">参加单位</div>
+            </td>
+            <td width="600" colspan="6">
+            &nbsp;高通无线通信技术(中国)有限公司&nbsp;华为技术有限公司&nbsp;中兴通讯股份有限公司&nbsp;大唐电信科技产业集团（电信科学技术研究院）&nbsp;联发博动科技（北京）有限公司&nbsp;OPPO广东移动通信有限公司&nbsp;北京三星通信技术研究有限公司&nbsp;维沃移动通信有限公司&nbsp;北京展讯高科通信技术有限公司&nbsp;北京小米移动软件有限公司&nbsp;            </td>
+        </tr>
+        <tr>
+            <td  >
+            <div align="center">目的、意义或必要性</div>
+            </td>
+            <td width="600" colspan="6">
+            &nbsp;5G作为新一代移动通信技术，备受业内关注。VoNR语音解决方案是5G&nbsp;SA架构下语音的目标解决方案，将使用NR承载语音业务，提升用户在5G&#160;SA网络下的语音业务感知，同时也符合运营商快速部署5G&#160;SA网络的需求。随着VoNR相关标准的成熟和国内5G组网的实际部署需求，制定基于NR语音解决方案（VoNR）终端设备的测试方法，可以为5G终端设备的优化完善、VoNR功能和性能测试验证提供依据，也利于运营商的终端设备选型、网络规划、部署和运营等工作的开展。            </td>
+        </tr>
+        <tr>
+            <td  >
+            <div align="center">范围和主要</div>
+            <div align="center">技术内容</div>
+            </td>
+            <td width="600" colspan="6">
+              &nbsp;本标准主要规定了支持VoNR的5G终端设备所特有的基本功能、业务、性能及一致性等相关的测试方法和要求，主要包括：<br />
+1）VoNR终端设备的语音域选择测试；<br />
+2）VoNR终端设备的无线功能测试；<br />
+3）VoNR终端设备的高层能力测试；<br />
+4）VoNR终端设备的IMS功能测试；<br />
+5）VoNR终端设备的业务功能测试；<br />
+6）VoNR终端终端设备的业务连续性测试；<br />
+7）VoNR终端设备的性能测试；<br />
+8）VoNR终端设备的人机界面测试；<br />
+9）VoNR终端设备的协议一致性测试。<br />
+等等            </td>
+        </tr>
+        <tr>
+            <td  >
+            <div align="center">国内外情况</div>
+            <div align="center">简要说明</div>
+            </td>
+            <td width="600" colspan="6">
+            &nbsp;1、	国内外对该技术研究情况简要说明：CCSA制定的“移动通信网络IMS客户端技术要求”标准规范，可以作为本项目VoNR终端IMS功能制定的基础。CCSA正在制定的“5G网络语音业务解决方案技术研究”研究报告，可作为本项目VoNR业务流程的依据，同时，与VoNR功能相关的核心网技术要求也将同期制定。<br />
+2、	项目对应国际标准或国外先进标准的情况：&nbsp;GSMA标准化组织已经制定和发布了IMS语音/视频相关标准，主要包括IR.92（语音）、IR.94（视频）、NG.114（5G）等；3GPP标准化组织中，&#160;TS&#160;24.229（SIP/SDP）对于NR及IMS相关功能进行了定义和描述，TS23.501及23.502对VoNR的系统架构及流程进行了定义和说明，TS&nbsp;34.229-5对于5GS下IMS相关终端协议一致性测试进行了定义和说明。本项目将以GSMA和3GPP&#160;相关标准为参考，进行VoNR终端设备进行VoNR终端设备测试方法和要求的制定。<br />
+3、	与国内相关标准间的关系：该标准中终端设备的基本通信能力要求与5G同类型终端行业标准要求一致。<br />
+4、	指出是否发现有知识产权的问题：本标准中部分内容有涉及专利的可能。但标准的发布机构不承担任何专利责任，如有专利问题，请于征求意见稿和送审稿的反馈意见中做出说明。            </td>
+        </tr>
+        <tr><td colspan="7" width="700">
+	        <table width="698" border="1">
+	        	<tr><td align="center"  height="100">牵头单位</td><td width="130">中国联合网络通信集团有限公司<br>中国电信集团有限公司<br>中国移动通信集团有限公司<br>中国信息通信研究院<br><br><div align="right">月&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日</div></td><td align="center" >标准化技术组织</td><td width="130">中国通信标准化协会<br><br><br><div align="right">月&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日</div></td><td align="center" >部委托机构</td><td >中国通信标准化协会<br><br><br><div align="right">月&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日</div></td></tr>
+          </table>
+        </td></tr>
+        <!--
+        <tr>
+            <td  height="50">
+              <div align="center">牵头单位</div>
+            </td>
+            <td width="400" colspan="3">
+            <div align="left">&nbsp;中国联合网络通信集团有限公司&nbsp;中国电信集团有限公司&nbsp;中国移动通信集团有限公司&nbsp;中国信息通信研究院&nbsp;</div>
+            <div align="right">年&nbsp;月&nbsp;日</div>
+            </td>
+            <td >
+              <div align="center">归口单</div>
+            </td>
+            <td width="196" colspan="2">
+            <div align="left">&nbsp;</div>
+            <div align="right">年&nbsp;月&nbsp;日</div>
+            </td>
+        </tr>
+        -->
+</table><br><table border="1" cellspacing="0" cellpadding="0" align="center" width="700">
+    <tbody>
+        <tr>
+            <td width="100" height="40"><div align="center">技术工作委员会/工作组</div></td>
+            <td width="250"> TC5:无线通信/WG9:移动通信无线 <br></td>
+                        <td width="100"><div align="center">项目类型</div></td>
+            <td width="250">
+            <div>标准项目 ■&nbsp;标准预研项目□</div>
+            </td>
+                    </tr>
+        <tr>
+            <td width="100" height="40"><div align="center">附议单位<br>
+            （3个以上）
+            </div></td>
+            <td width="600" colspan="3">            </td>
+        </tr>
+        <tr>
+            <td width="100" height="80"><div align="center">参加单位意见</div></td>
+            <td width="600"  colspan="3">
+            <br><div align="right">年<span>&nbsp;&nbsp;&nbsp; </span>月<span>&nbsp;&nbsp;&nbsp; </span>日</div>
+            </td>
+        </tr>
+        <tr>
+            <td height="100"><div align="center">工作组意见</div></td>
+            <td colspan="3" width="600">
+            <br><div align="right">年<span>&nbsp;&nbsp;&nbsp; </span>月<span>&nbsp;&nbsp;&nbsp; </span>日</div>
+            </td>
+        </tr>
+        <tr>
+            <td width="100" height="80"><div align="center">技术工作委员会意见</div></td>
+            <td width="600" colspan="3">
+            <br><div align="right">年<span>&nbsp;&nbsp;&nbsp; </span>月<span>&nbsp;&nbsp;&nbsp; </span>日</div>
+            </td>
+        </tr>
+        <tr>
+                    <td width="100" height="80" align="center">牵头单位信息</td>
+            <td  colspan="3" height="100"><table width="100%" border="0" height="100%">
+			<tr><td width="200" height="50">单位名称:<br>
+			  中国联合网络通信集团有限公司</td><td width="200">联系人:<br></td><td >联系方式:<br>-</td></tr>
+			<tr><td>项目负责人:<br>师瑜</td><td>联系方式:<br>18601106053-shiyu19@chinaunicom.cn</td><td>标准化人员证书编号:<br></td></tr>
+			</table></td>
+        </tr>
+        <tr>
+            <td width="100" height="60" align="center">备注</td>
+            <td width="600" colspan="3">&nbsp;            
+            </td>
+        </tr>
+    </tbody>
+</table></html>

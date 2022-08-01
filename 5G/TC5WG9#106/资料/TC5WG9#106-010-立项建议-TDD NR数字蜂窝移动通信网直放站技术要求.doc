@@ -1,0 +1,237 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+		xmlns:w="urn:schemas-microsoft-com:office:word"
+		xmlns="http://www.w3.org/TR/REC-html40"><style type="text/css">
+table{table-layout:   fixed;}
+td{word-break:   break-all;   word-wrap:break-word;} 
+</style> 
+<table border="0" cellspacing="0" cellpadding="0" align="center" width="700">
+<tr><td align="center">行业标准项目建议书</td></tr>
+</table><br><br> 
+<table border="1" cellspacing="0" cellpadding="0" align="center" width="700">
+        <tr>
+            <td >
+              <div align="center">建议项目名称<br>(中文)</div></td>
+            <td width="250" colspan="3" align="center">&nbsp;TDD NR数字蜂窝移动通信网直放站技术要求            </td>
+            <td >
+            <div align="center">建议项目名称<br>(英文)</div>
+            </td>
+            <td  colspan="2" align="center">&nbsp;TDD NR Digital Cellular Mobile Telecommunication Network Technical Requirement of Repeater            </td>
+        </tr>
+        <tr>
+            <td  height="25">
+            <div align="center">制定或修订</div></td>
+            <td width="80" >
+            <div>
+              <!--<input name="checkbox" type="checkbox" value="checkbox" checked  >-->
+              ■              制定</div>
+            </td>
+            <td width="170" colspan="2" >
+            <div>
+              <!--<input name="checkbox2" type="checkbox" value="checkbox" >-->
+              □              修订</div>
+            </td>
+            <td >
+            <div align="center">被修订标准号</div>
+            </td>
+            <td  colspan="2">
+            <div align="center">&nbsp;</div>
+            </td>
+        </tr>
+        <tr>
+            <td  height="25" width="100">
+          <div align="center">采用程度</div>          </td>
+            <td width="80">
+            <div>
+              <!--<input name="checkbox5" type="checkbox" value="checkbox" >-->
+              □              IDT</div>
+            </td>
+            <td width="85">
+            <div>
+              <!--<input name="checkbox6" type="checkbox" value="checkbox" >-->
+              □              MOD</div>
+            </td>
+            <td width="85">
+            <div>
+              <!--<input name="checkbox7" type="checkbox" value="checkbox" >-->
+              □              NEQ</div>
+            </td>
+            <td width="100">
+            <div align="center">采标号</div>
+            </td>
+            <td  colspan="2">
+            <div align="center">&nbsp;</div>
+            </td>
+        </tr>
+        <tr>
+            <td  >
+              <div align="center">国际标准名称<br>(中文)</div></td>
+            <td width="250" colspan="3">
+            &nbsp;
+            </td>
+            <td >
+            <div align="center">国际标准名称<br>(英文)</div>
+            </td>
+            <td colspan="2">
+            &nbsp;            </td>
+        </tr>
+        <tr>
+            <td  height="25">
+            <div align="center">采用快速程序</div>
+            </td>
+            <td width="250" colspan="3">
+            <div>
+              <!--<input name="checkbox8" type="checkbox" value="checkbox" >-->
+              □              FTP</div>
+            </td>
+            <td >
+            <div align="center">快速程序代码</div>
+            </td>
+            <td width="125">
+            <div>
+             <!-- <input name="checkbox3" type="checkbox" value="checkbox" > -->
+              □ 
+              B</div>
+            </td>
+            <td >
+            <div>
+              <!--<input name="checkbox4" type="checkbox" value="checkbox" >-->
+              □ 
+              C</div>
+            </td>
+        </tr>
+        <tr>
+            <td  height="25">
+            <div align="center">ICS分类号</div>
+            </td>
+            <td width="250" colspan="3">
+            &nbsp;33.060.99             </td>
+            <td >
+            <div align="center">中国标准分类号</div>
+            </td>
+            <td width="250" colspan="2">
+            &nbsp;M36            </td>
+        </tr>
+        <tr>
+            <td  height="25">
+            <div align="center">牵头单位</div>
+            </td>
+            <td width="250" colspan="3">
+            &nbsp;中国联合网络通信集团有限公司&nbsp;中国信息通信科技集团有限公司&nbsp;京信通信系统（中国）有限公司&nbsp;            </td>
+            <td >
+            <div align="center">完成年限</div>
+            </td>
+            <td width="250" colspan="2">
+            &nbsp;2022            </td>
+        </tr>
+        <tr>
+            <td  height="25">
+            <div align="center">参加单位</div>
+            </td>
+            <td width="600" colspan="6">
+            &nbsp;            </td>
+        </tr>
+        <tr>
+            <td  >
+            <div align="center">目的、意义或必要性</div>
+            </td>
+            <td width="600" colspan="6">
+            &nbsp;中低价值覆盖场景，如住宅小区，高速公路、隧道、农村、偏远山区以及电梯和地下室。此类区域人员相对密度低，业务需求较低，5G容量要求和速率体验不是很明显。如果采用64TR&nbsp;AAU等基站设备建网，运营商存在巨大成本压力。这些场景可采用低成本的TDD&nbsp;NR直放站进行5G网络覆盖，一方面信源耦合更加便利，另一方面建网成本也更低。<br />
+因此TDD&nbsp;NR直放站设备对运营商低成本建设5G网络有着重要意义。<br />
+目前TDD&nbsp;NR直放站设备未定制相关标准，因此，建议制定TDD&nbsp;NR直放站设备技术要求，该技术要求对TDD&nbsp;NR直放站设备标准化有积极的指导意义。<br />
+            </td>
+        </tr>
+        <tr>
+            <td  >
+            <div align="center">范围和主要</div>
+            <div align="center">技术内容</div>
+            </td>
+            <td width="600" colspan="6">
+              &nbsp;该技术要求规定了TDD&nbsp;NR直放站的架构，、近端单元要求、远端单元要求。具体如下：<br />
+&#61550;&nbsp;&nbsp;定义TDD&nbsp;NR直放站系统的组网要求、系统架构。<br />
+对射频馈入单元、远端单元的功能要求、性能要求、接口要求、供电要求、功耗要求、环境要求、电源适应性要求、电磁兼容要求、安全要求以及防雷要求进行规范。<br />
+&nbsp;对远端设备射频指标要求进行规范定义。<br />
+&nbsp;对系统运行的操作维护要求。<br />
+            </td>
+        </tr>
+        <tr>
+            <td  >
+            <div align="center">国内外情况</div>
+            <div align="center">简要说明</div>
+            </td>
+            <td width="600" colspan="6">
+            &nbsp;暂无相关行业标准和国际标准。<br />
+&#61550;标准中所涉及的技术和功能要求无知识产权问题<br />
+            </td>
+        </tr>
+        <tr><td colspan="7" width="700">
+	        <table width="698" border="1">
+	        	<tr><td align="center"  height="100">牵头单位</td><td width="130">中国联合网络通信集团有限公司<br>中国信息通信科技集团有限公司<br>京信通信系统（中国）有限公司<br><br><div align="right">月&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日</div></td><td align="center" >标准化技术组织</td><td width="130">中国通信标准化协会<br><br><br><div align="right">月&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日</div></td><td align="center" >部委托机构</td><td >中国通信标准化协会<br><br><br><div align="right">月&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日</div></td></tr>
+          </table>
+        </td></tr>
+        <!--
+        <tr>
+            <td  height="50">
+              <div align="center">牵头单位</div>
+            </td>
+            <td width="400" colspan="3">
+            <div align="left">&nbsp;中国联合网络通信集团有限公司&nbsp;中国信息通信科技集团有限公司&nbsp;京信通信系统（中国）有限公司&nbsp;</div>
+            <div align="right">年&nbsp;月&nbsp;日</div>
+            </td>
+            <td >
+              <div align="center">归口单</div>
+            </td>
+            <td width="196" colspan="2">
+            <div align="left">&nbsp;</div>
+            <div align="right">年&nbsp;月&nbsp;日</div>
+            </td>
+        </tr>
+        -->
+</table><br><table border="1" cellspacing="0" cellpadding="0" align="center" width="700">
+    <tbody>
+        <tr>
+            <td width="100" height="40"><div align="center">技术工作委员会/工作组</div></td>
+            <td width="250"> TC5:无线通信/WG9:移动通信无线 <br></td>
+                        <td width="100"><div align="center">项目类型</div></td>
+            <td width="250">
+            <div>标准项目 ■&nbsp;标准预研项目□</div>
+            </td>
+                    </tr>
+        <tr>
+            <td width="100" height="40"><div align="center">附议单位<br>
+            （3个以上）
+            </div></td>
+            <td width="600" colspan="3">            </td>
+        </tr>
+        <tr>
+            <td width="100" height="80"><div align="center">参加单位意见</div></td>
+            <td width="600"  colspan="3">
+            <br><div align="right">年<span>&nbsp;&nbsp;&nbsp; </span>月<span>&nbsp;&nbsp;&nbsp; </span>日</div>
+            </td>
+        </tr>
+        <tr>
+            <td height="100"><div align="center">工作组意见</div></td>
+            <td colspan="3" width="600">
+            <br><div align="right">年<span>&nbsp;&nbsp;&nbsp; </span>月<span>&nbsp;&nbsp;&nbsp; </span>日</div>
+            </td>
+        </tr>
+        <tr>
+            <td width="100" height="80"><div align="center">技术工作委员会意见</div></td>
+            <td width="600" colspan="3">
+            <br><div align="right">年<span>&nbsp;&nbsp;&nbsp; </span>月<span>&nbsp;&nbsp;&nbsp; </span>日</div>
+            </td>
+        </tr>
+        <tr>
+                    <td width="100" height="80" align="center">牵头单位信息</td>
+            <td  colspan="3" height="100"><table width="100%" border="0" height="100%">
+			<tr><td width="200" height="50">单位名称:<br>
+			  中国联合网络通信集团有限公司</td><td width="200">联系人:<br></td><td >联系方式:<br>-</td></tr>
+			<tr><td>项目负责人:<br>郭希蕊</td><td>联系方式:<br>18601108626-guoxr12@chinaunicom.cn</td><td>标准化人员证书编号:<br></td></tr>
+			</table></td>
+        </tr>
+        <tr>
+            <td width="100" height="60" align="center">备注</td>
+            <td width="600" colspan="3">&nbsp;            
+            </td>
+        </tr>
+    </tbody>
+</table></html>

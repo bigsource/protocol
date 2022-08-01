@@ -1,0 +1,193 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+		xmlns:w="urn:schemas-microsoft-com:office:word"
+		xmlns="http://www.w3.org/TR/REC-html40"><style type="text/css">
+table{table-layout:   fixed;}
+td{word-break:   break-all;   word-wrap:break-word;} 
+</style> 
+<table border="0" cellspacing="0" cellpadding="0" align="center" width="700">
+<tr><td align="center">研究课题项目建议书</td></tr>
+</table><br><br>
+<table border="1" cellspacing="0" cellpadding="0" align="center" width="710">
+    <tbody>
+        <tr>
+            <td  >
+            <div align="center">建议项目名称<br>(中文)</div>
+            </td>
+            <td width="250" colspan="2">5G多天线增强和上行选择发射技术研究            </td>
+            <td >
+            <div align="center">建议项目名称<br>
+            (英文)</div>
+            </td>
+            <td width="250">Study on MIMO Enhancement and UL Transmission Switching for NR            </td>
+        </tr>
+        <tr>
+            <td  height="50" width="100">
+            <div align="center">制定或修订</div>
+            </td>
+            <td width="175">■              <!--<input name="checkbox" type="checkbox" value="checkbox" checked>-->
+              制定</td>
+             <td width="175"> <!--<input name="checkbox2" type="checkbox" value="checkbox" >修订</td>-->
+             □修订</td>
+            <td  width="100">
+            <div align="center">被修订编号</div>
+            </td>
+            <td width="250" >            </td>
+        </tr>
+        <tr>
+            <td  >
+            <div align="center">对应国际标准<br>名称(中文)</div>
+            </td>
+            <td width="250" colspan="2">
+                        </td>
+            <td >
+            <div align="center">对应国际标准<br>名称(英文)</div>
+            </td>
+            <td width="250">
+                        </td>
+        </tr>
+        <tr>
+            <td  height="30">
+            <div align="center">项目分类</div>
+            </td>
+            <!--
+            <td width="200"><input name="checkbox2" type="checkbox" value="checkbox" >技术报告</td>
+            <td width="200"><input name="checkbox2" type="checkbox" value="checkbox" checked>研究课题</td>
+            -->
+            <td width="175">□协会标准</td>
+            <td width="175">■研究课题</td>
+            <td >
+            <div align="center">完成年限</div>
+            </td>
+            <td width="250">
+            2020            </td>
+        </tr>
+        <tr>
+            <td  height="50">
+            <div align="center">所属领域</div>
+            </td>
+            <td width="250" colspan="2">
+            &nbsp;移动通信            </td>
+            <td >
+            <div align="center">技术工作委员会/工作组</div>
+            </td>
+            <td width="250">
+            &nbsp;无线通信/移动通信无线&nbsp;            </td>
+        </tr>
+        <tr>
+            <td  height="30">
+            <div align="center">牵头单位</div>
+            </td>
+            <td  colspan="4" width="600">
+            <div>中国电信集团有限公司&nbsp;</div>
+            </td>
+        </tr>
+        <tr>
+            <td  height="30">
+            <div align="center">参加单位</div>
+            </td>
+            <td  colspan="4" width="600">
+            <div>四川通信科研规划设计有限责任公司&nbsp;华为技术有限公司&nbsp;中兴通讯股份有限公司&nbsp;上海诺基亚贝尔股份有限公司&nbsp;OPPO广东移动通信有限公司&nbsp;北京小米移动软件有限公司&nbsp;爱立信（中国）通信有限公司&nbsp;大唐电信科技产业集团（电信科学技术研究院）&nbsp;</div>
+            </td>
+        </tr>
+        <tr>
+            <td  >
+            <div align="center">目的、意义或必要性</div>
+            </td>
+            <td colspan="4" width="600">
+            &nbsp;为了进一步提升5G网络的覆盖和容量性能，充分利用运营商已有频段资源，3GPP在Rel-16从多个角度对于Rel-15的标准进行了增强。其中在多天线增强技术上，针对包括Type&nbsp;II的CSI反馈、multi-TRP/panel操作、多波束操作中波束失败恢复、上行满功率发射等内容进行了规范的增强，从而实现了鲁棒性、更低时延、更低开销以及系统性能的整体提升。<br />
+此外，为了充分利用运营商的上行多个载波中的空闲频谱资源，在Rel-16阶段也计划针对UE在两个上行载波中根据网络侧的配置实现上行选择发射的方案进行标准化工作（RP-192282），从而实现相对5G单载波上行性能的提升。<br />
+上述这些功能有利于运营商提升网络整体性能，降低网络建设成本，改善用户体验。因此有必要开展相关的技术研究工作，为后续行标的制订提供技术指导和依据。<br />
+            </td>
+        </tr>
+        <tr>
+            <td  >
+            <div align="center">研究范围和<br>主要技术内容<br>及国内外情况<br>的简要说明</div>
+            </td>
+            <td  colspan="4" width="600">
+            &nbsp;本研究报告主要基于3GPP&nbsp;Rel-16中&nbsp;MIMO增强技术和UL&nbsp;Tx&nbsp;switching技术开展研究工作。主要研究内容包括：<br />
+&#8722;	UL&nbsp;Tx&nbsp;switching的适用场景<br />
+&#8722;	UL&nbsp;Tx&nbsp;switching的协议增强研究<br />
+&#8722;	UL&nbsp;Tx&nbsp;switching对终端实现和指标影响分析<br />
+&#8722;	MIMO增强对于物理层和高层协议的影响<br />
+<br />
+<br>国内标准情况：目前CCSA行标《5G数字蜂窝移动通信网&nbsp;6GHz以下频段基站设备技术要求（第一阶段）》仅定义了3GPP&nbsp;Rel-15相关内容，未涉及本研究报告所涵盖的部分。<br />
+国外标准情况：目前3GPP在Rel-16阶段开展了针对MIMO增强（RP-192271）和针对UL&nbsp;Tx&nbsp;Switching（RP-192282）的标准化工作。<br />
+            </td>
+        </tr>
+        <tr>
+            <td  >
+            <div align="center">附议单位<br>（3个以上）</div>
+            </td>
+            <td  colspan="4" width="600">
+            &nbsp;四川通信科研规划设计有限责任公司,华为技术有限公司,&nbsp;中兴通讯股份有限公司            </td>
+        </tr>
+        <tr>
+            <td  >
+            <div align="center">参加单位意见</div>
+            </td>
+            <td  colspan="4" width="600">
+            <div>&nbsp;</div>
+            <div align="right">年&nbsp;&nbsp;&nbsp; 月&nbsp;&nbsp;&nbsp; 日</div>
+            </td>
+        </tr>
+        <tr>
+            <td >
+            <div align="center">工作组意见</div>
+            </td>
+            <td  colspan="4" width="600">
+            <div>&nbsp;</div>
+            <div align="right">年&nbsp;&nbsp;&nbsp; 月&nbsp;&nbsp;&nbsp;日</div>
+            </td>
+        </tr>
+        <tr>
+            <td >
+            <div align="center">技术工作委员会意见</div>
+            </td>
+            <td colspan="4" width="600">
+            <div>&nbsp;</div>
+            <div align="right">年&nbsp;&nbsp;&nbsp;月&nbsp;&nbsp;&nbsp;日</div>
+            </td>
+        </tr>
+        <tr>
+            <td  >
+            <div align="center">协会意见</div>
+            </td>
+            <td  colspan="4" width="600">
+            <div>&nbsp;</div>
+            <div align="right">年&nbsp;&nbsp;&nbsp;月&nbsp;&nbsp;&nbsp;日</div>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2" >
+            <div align="center">牵头单位信息</div>
+            </td>
+            <td width="150" height="50">
+            <div>单位名称中国电信集团有限公司</div>
+            </td>
+            <td width="150">
+            <div>联系人：</div>
+            </td>
+            <td  colspan="2">
+            <div>联系方式：-</div>
+            </td>
+        </tr>
+        <tr>
+            <td width="150" height="50">
+            <div>项目负责人：许森</div>
+            </td>
+            <td width="150">
+            <div>联系方式：13321171322-xusen@chinatelecom.cn</div>
+            </td>
+            <td  colspan="2">
+            <div>标准化人员证书编号：201306065</div>
+            </td>
+        </tr>
+        <tr>
+            <td  >
+            <div align="center">备注</div>
+            </td>
+            <td  colspan="4" width="600">
+            &nbsp;            </td>
+        </tr>
+    </tbody>
+</table></html>

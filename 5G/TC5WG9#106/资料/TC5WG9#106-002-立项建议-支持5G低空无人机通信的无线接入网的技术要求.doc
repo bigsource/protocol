@@ -1,0 +1,241 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+		xmlns:w="urn:schemas-microsoft-com:office:word"
+		xmlns="http://www.w3.org/TR/REC-html40"><style type="text/css">
+table{table-layout:   fixed;}
+td{word-break:   break-all;   word-wrap:break-word;} 
+</style> 
+<table border="0" cellspacing="0" cellpadding="0" align="center" width="700">
+<tr><td align="center">行业标准项目建议书</td></tr>
+</table><br><br> 
+<table border="1" cellspacing="0" cellpadding="0" align="center" width="700">
+        <tr>
+            <td >
+              <div align="center">建议项目名称<br>(中文)</div></td>
+            <td width="250" colspan="3" align="center">&nbsp;支持5G低空无人机通信的无线接入网的技术要求            </td>
+            <td >
+            <div align="center">建议项目名称<br>(英文)</div>
+            </td>
+            <td  colspan="2" align="center">&nbsp;Technical requirements of enhanced 5G Support for low-altitude UAV radio access network             </td>
+        </tr>
+        <tr>
+            <td  height="25">
+            <div align="center">制定或修订</div></td>
+            <td width="80" >
+            <div>
+              <!--<input name="checkbox" type="checkbox" value="checkbox" checked  >-->
+              ■              制定</div>
+            </td>
+            <td width="170" colspan="2" >
+            <div>
+              <!--<input name="checkbox2" type="checkbox" value="checkbox" >-->
+              □              修订</div>
+            </td>
+            <td >
+            <div align="center">被修订标准号</div>
+            </td>
+            <td  colspan="2">
+            <div align="center">&nbsp;</div>
+            </td>
+        </tr>
+        <tr>
+            <td  height="25" width="100">
+          <div align="center">采用程度</div>          </td>
+            <td width="80">
+            <div>
+              <!--<input name="checkbox5" type="checkbox" value="checkbox" >-->
+              □              IDT</div>
+            </td>
+            <td width="85">
+            <div>
+              <!--<input name="checkbox6" type="checkbox" value="checkbox" >-->
+              □              MOD</div>
+            </td>
+            <td width="85">
+            <div>
+              <!--<input name="checkbox7" type="checkbox" value="checkbox" >-->
+              □              NEQ</div>
+            </td>
+            <td width="100">
+            <div align="center">采标号</div>
+            </td>
+            <td  colspan="2">
+            <div align="center">&nbsp;</div>
+            </td>
+        </tr>
+        <tr>
+            <td  >
+              <div align="center">国际标准名称<br>(中文)</div></td>
+            <td width="250" colspan="3">
+            &nbsp;
+            </td>
+            <td >
+            <div align="center">国际标准名称<br>(英文)</div>
+            </td>
+            <td colspan="2">
+            &nbsp;            </td>
+        </tr>
+        <tr>
+            <td  height="25">
+            <div align="center">采用快速程序</div>
+            </td>
+            <td width="250" colspan="3">
+            <div>
+              <!--<input name="checkbox8" type="checkbox" value="checkbox" >-->
+              □              FTP</div>
+            </td>
+            <td >
+            <div align="center">快速程序代码</div>
+            </td>
+            <td width="125">
+            <div>
+             <!-- <input name="checkbox3" type="checkbox" value="checkbox" > -->
+              □ 
+              B</div>
+            </td>
+            <td >
+            <div>
+              <!--<input name="checkbox4" type="checkbox" value="checkbox" >-->
+              □ 
+              C</div>
+            </td>
+        </tr>
+        <tr>
+            <td  height="25">
+            <div align="center">ICS分类号</div>
+            </td>
+            <td width="250" colspan="3">
+            &nbsp;01.040.33            </td>
+            <td >
+            <div align="center">中国标准分类号</div>
+            </td>
+            <td width="250" colspan="2">
+            &nbsp;33.020            </td>
+        </tr>
+        <tr>
+            <td  height="25">
+            <div align="center">牵头单位</div>
+            </td>
+            <td width="250" colspan="3">
+            &nbsp;中国移动通信集团有限公司&nbsp;中国电信集团有限公司&nbsp;中国信息通信研究院&nbsp;华为技术有限公司&nbsp;            </td>
+            <td >
+            <div align="center">完成年限</div>
+            </td>
+            <td width="250" colspan="2">
+            &nbsp;2021            </td>
+        </tr>
+        <tr>
+            <td  height="25">
+            <div align="center">参加单位</div>
+            </td>
+            <td width="600" colspan="6">
+            &nbsp;            </td>
+        </tr>
+        <tr>
+            <td  >
+            <div align="center">目的、意义或必要性</div>
+            </td>
+            <td width="600" colspan="6">
+            &nbsp;当前无人机的市场和应用在蓬勃发展，到2025年，无人机产值达到1800亿元，保持年均增速25%以上。网联化和智能化是无人机发展的必然趋势，是满足国家低空空域改革监管需求、创造低空数字经济新增长点的必要条件，是国家新型制造竞争力的重要体现。国家高度重视无人机与网络通信技术、智能应用技术融合发展，制定了相关政策引导发展。工信部在《关于促进和规范民用无人机制造业发展的指导意见》中指明无人机产业要&nbsp;“大力开展技术创新、拓展服务应用领域、推动管控平台建设、强化频率规范使用”等八个方面的工作。<br />
+<br />
+因此我国需要优先在我国开展基于5G通信的低空无人机飞行管理研究标准研究。<br />
+<br />
+尽快规范和标准化如何应用网联技术，基于5G系统，为低空的无人机提供有序的基于路径的按需覆盖，保证它们合理有序的飞行，从而促进无人机行业的健康发展。由于5G网联无人机与行业应用紧密相关，我国是民用无人机制造与使用强国，欧洲都在期待中国的5G网联无人机飞行管理得到突破，推动3GPP、ISO、ICAO等相关标准规范的输出。<br />
+<br />
+另一方面，&nbsp;3GPP在Rel-15已经完成了面向LTE系统的支持无人机通信的增强技术的可行性研究（SID）和标准落地&nbsp;(WID)。在SID阶段，3GPP的RAN1/RAN2工作组对支持网联无人机通信的可能的增强技术方案和性能做了大量详细的评估和论证工作，并得到网联无人机通信是可行的，但面临上，下行干扰以及移动性等相关的问题和挑战，且随着无人机的飞行高度越高，问题越明显。在WID阶段，为了给网联无人机提供高性能的服务，3GPP标准化了增强的技术方案来提升系统的效率和强壮性。这些技术特征包括，基于签约的无人机识别，基于高度和位置的新的测量上报，无线侧基于识别小区数的测量报告的无人机识别和基于UE上报的路径规划的移动性管理，以及增强的功率控制。<br />
+            </td>
+        </tr>
+        <tr>
+            <td  >
+            <div align="center">范围和主要</div>
+            <div align="center">技术内容</div>
+            </td>
+            <td width="600" colspan="6">
+              &nbsp;本规划主要研究基于移动运营商5G网络的对5G网联无人机的无线侧资源的管理和控制的无线接入网智能管理和控制平台的研究，支持无人机行业应用的发展：<br />
+a)	无人机终端的识别和接入控制；<br />
+b)	无人机终端的功率控制；<br />
+c)	无人机终端的干扰控制；<br />
+d)	无人机终端的低空移动性管理；<br />
+e)	无人机飞行区域的负载平衡管理;<br />
+f)	研究IT/CT/DT融合的智能网络架构，在架构的不同节点中引入计算、存储、大数据和人工智能等能力，使能实时、海量、高维度的复杂无人机的管理和控制的无线大数据收集、分析、模型训练和对无人机终端的无线资源的分配的智能决策，使能复杂泛在网络的功能优化和控制<br />
+            </td>
+        </tr>
+        <tr>
+            <td  >
+            <div align="center">国内外情况</div>
+            <div align="center">简要说明</div>
+            </td>
+            <td width="600" colspan="6">
+            &nbsp;&nbsp;3GPP在Rel-15已经完成了面向LTE系统的支持无人机通信的增强技术的可行性研究（SID）和标准落地&nbsp;(WID)。在SID阶段，3GPP的RAN1/RAN2工作组对支持网联无人机通信的可能的增强技术方案和性能做了大量详细的评估和论证工作，并得到网联无人机通信是可行的，但面临上，下行干扰以及移动性等相关的问题和挑战，且随着无人机的飞行高度越高，问题越明显。在WID阶段，为了给网联无人机提供高性能的服务，3GPP标准化了增强的技术方案来提升系统的效率和强壮性。这些技术特征包括，基于签约的无人机识别，基于高度和位置的新的测量上报，无线侧基于识别小区数的测量报告的无人机识别和基于UE上报的路径规划的移动性管理，以及增强的功率控制。            </td>
+        </tr>
+        <tr><td colspan="7" width="700">
+	        <table width="698" border="1">
+	        	<tr><td align="center"  height="100">牵头单位</td><td width="130">中国移动通信集团有限公司<br>中国电信集团有限公司<br>中国信息通信研究院<br>华为技术有限公司<br><br><div align="right">月&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日</div></td><td align="center" >标准化技术组织</td><td width="130">中国通信标准化协会<br><br><br><div align="right">月&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日</div></td><td align="center" >部委托机构</td><td >中国通信标准化协会<br><br><br><div align="right">月&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日</div></td></tr>
+          </table>
+        </td></tr>
+        <!--
+        <tr>
+            <td  height="50">
+              <div align="center">牵头单位</div>
+            </td>
+            <td width="400" colspan="3">
+            <div align="left">&nbsp;中国移动通信集团有限公司&nbsp;中国电信集团有限公司&nbsp;中国信息通信研究院&nbsp;华为技术有限公司&nbsp;</div>
+            <div align="right">年&nbsp;月&nbsp;日</div>
+            </td>
+            <td >
+              <div align="center">归口单</div>
+            </td>
+            <td width="196" colspan="2">
+            <div align="left">&nbsp;</div>
+            <div align="right">年&nbsp;月&nbsp;日</div>
+            </td>
+        </tr>
+        -->
+</table><br><table border="1" cellspacing="0" cellpadding="0" align="center" width="700">
+    <tbody>
+        <tr>
+            <td width="100" height="40"><div align="center">技术工作委员会/工作组</div></td>
+            <td width="250"> TC5:无线通信/WG9:移动通信无线 <br></td>
+                        <td width="100"><div align="center">项目类型</div></td>
+            <td width="250">
+            <div>标准项目 ■&nbsp;标准预研项目□</div>
+            </td>
+                    </tr>
+        <tr>
+            <td width="100" height="40"><div align="center">附议单位<br>
+            （3个以上）
+            </div></td>
+            <td width="600" colspan="3">            </td>
+        </tr>
+        <tr>
+            <td width="100" height="80"><div align="center">参加单位意见</div></td>
+            <td width="600"  colspan="3">
+            <br><div align="right">年<span>&nbsp;&nbsp;&nbsp; </span>月<span>&nbsp;&nbsp;&nbsp; </span>日</div>
+            </td>
+        </tr>
+        <tr>
+            <td height="100"><div align="center">工作组意见</div></td>
+            <td colspan="3" width="600">
+            <br><div align="right">年<span>&nbsp;&nbsp;&nbsp; </span>月<span>&nbsp;&nbsp;&nbsp; </span>日</div>
+            </td>
+        </tr>
+        <tr>
+            <td width="100" height="80"><div align="center">技术工作委员会意见</div></td>
+            <td width="600" colspan="3">
+            <br><div align="right">年<span>&nbsp;&nbsp;&nbsp; </span>月<span>&nbsp;&nbsp;&nbsp; </span>日</div>
+            </td>
+        </tr>
+        <tr>
+                    <td width="100" height="80" align="center">牵头单位信息</td>
+            <td  colspan="3" height="100"><table width="100%" border="0" height="100%">
+			<tr><td width="200" height="50">单位名称:<br>
+			  中国移动通信集团有限公司</td><td width="200">联系人:<br></td><td >联系方式:<br>-</td></tr>
+			<tr><td>项目负责人:<br>柴丽</td><td>联系方式:<br>13810020995-chaili@chinamobile.com</td><td>标准化人员证书编号:<br></td></tr>
+			</table></td>
+        </tr>
+        <tr>
+            <td width="100" height="60" align="center">备注</td>
+            <td width="600" colspan="3">&nbsp;            
+            </td>
+        </tr>
+    </tbody>
+</table></html>

@@ -1,0 +1,191 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+		xmlns:w="urn:schemas-microsoft-com:office:word"
+		xmlns="http://www.w3.org/TR/REC-html40"><style type="text/css">
+table{table-layout:   fixed;}
+td{word-break:   break-all;   word-wrap:break-word;} 
+</style> 
+<table border="0" cellspacing="0" cellpadding="0" align="center" width="700">
+<tr><td align="center">研究课题项目建议书</td></tr>
+</table><br><br>
+<table border="1" cellspacing="0" cellpadding="0" align="center" width="710">
+    <tbody>
+        <tr>
+            <td  >
+            <div align="center">建议项目名称<br>(中文)</div>
+            </td>
+            <td width="250" colspan="2">5G频谱共享增强技术研究            </td>
+            <td >
+            <div align="center">建议项目名称<br>
+            (英文)</div>
+            </td>
+            <td width="250">Study on the Enhancement for NR Dynamic Spectrum Sharing            </td>
+        </tr>
+        <tr>
+            <td  height="50" width="100">
+            <div align="center">制定或修订</div>
+            </td>
+            <td width="175">■              <!--<input name="checkbox" type="checkbox" value="checkbox" checked>-->
+              制定</td>
+             <td width="175"> <!--<input name="checkbox2" type="checkbox" value="checkbox" >修订</td>-->
+             □修订</td>
+            <td  width="100">
+            <div align="center">被修订编号</div>
+            </td>
+            <td width="250" >            </td>
+        </tr>
+        <tr>
+            <td  >
+            <div align="center">对应国际标准<br>名称(中文)</div>
+            </td>
+            <td width="250" colspan="2">
+                        </td>
+            <td >
+            <div align="center">对应国际标准<br>名称(英文)</div>
+            </td>
+            <td width="250">
+                        </td>
+        </tr>
+        <tr>
+            <td  height="30">
+            <div align="center">项目分类</div>
+            </td>
+            <!--
+            <td width="200"><input name="checkbox2" type="checkbox" value="checkbox" >技术报告</td>
+            <td width="200"><input name="checkbox2" type="checkbox" value="checkbox" checked>研究课题</td>
+            -->
+            <td width="175">□协会标准</td>
+            <td width="175">■研究课题</td>
+            <td >
+            <div align="center">完成年限</div>
+            </td>
+            <td width="250">
+            2020            </td>
+        </tr>
+        <tr>
+            <td  height="50">
+            <div align="center">所属领域</div>
+            </td>
+            <td width="250" colspan="2">
+            &nbsp;移动通信            </td>
+            <td >
+            <div align="center">技术工作委员会/工作组</div>
+            </td>
+            <td width="250">
+            &nbsp;无线通信/移动通信无线&nbsp;            </td>
+        </tr>
+        <tr>
+            <td  height="30">
+            <div align="center">牵头单位</div>
+            </td>
+            <td  colspan="4" width="600">
+            <div>中国电信集团有限公司&nbsp;中国联合网络通信集团有限公司&nbsp;中国移动通信集团有限公司&nbsp;高通无线通信技术(中国)有限公司&nbsp;</div>
+            </td>
+        </tr>
+        <tr>
+            <td  height="30">
+            <div align="center">参加单位</div>
+            </td>
+            <td  colspan="4" width="600">
+            <div>四川通信科研规划设计有限责任公司&nbsp;华为技术有限公司&nbsp;中兴通讯股份有限公司&nbsp;上海诺基亚贝尔股份有限公司&nbsp;北京小米移动软件有限公司&nbsp;OPPO广东移动通信有限公司&nbsp;维沃移动通信有限公司&nbsp;</div>
+            </td>
+        </tr>
+        <tr>
+            <td  >
+            <div align="center">目的、意义或必要性</div>
+            </td>
+            <td colspan="4" width="600">
+            &nbsp;目前运营商4G频谱相比于5G频谱而言，具有频点较低覆盖较好的特点，考虑到目前4G频谱特别是上行频谱仍然有一定的空闲资源，可以通过4G/5G频谱共享的方式，利用4G闲置频谱资源共5G用户使用，该方案一方面可以提升整个5G网络的容量，提升用户在小区边缘的体验且降低运营商的建站成本。<br />
+目前3GPP在Rel-15和Rel-16中针对4G/5G频谱共享都做了标准化研究和增强工作，主要从支持更大带宽下的共享、支持更高的PDCCH容量以及调度更多的PDSCH资源等方面开展了标准和研究工作。考虑到运营商通过共建共享支持超过20MHz以上的频谱，因此Rel-16的相关增强技术对于未来网络部署有重要的帮助。<br />
+            </td>
+        </tr>
+        <tr>
+            <td  >
+            <div align="center">研究范围和<br>主要技术内容<br>及国内外情况<br>的简要说明</div>
+            </td>
+            <td  colspan="4" width="600">
+            &nbsp;本项目以3GPP&nbsp;R15和R16的标准化进展为基础开展相关的技术，主要包括真多小区CRS匹配，基于RE和RB级速率匹配，PDSCH&nbsp;DMRS增强影响等，本研究课题主要包括如下内容：<br />
+&#8722;	频谱共享的适用场景<br />
+&#8722;	R15和R16中关键技术分析<br />
+&#8722;	对于传统的LTE基站设备的影响分析<br />
+&#8722;	频谱共享的性能和系统开销分析<br />
+&#8722;	评估不同频谱共享方案的优劣势<br />
+<br />
+<br>截止2020年1月，CCSA第一阶段5G基站行标中未涉及任何DSS技术的定义，后续对于基于R16版本的第二阶段行标中对于该技术也将有明确规范制定需求，因此本研究报告将为后续的5G基站设备和终端规范中关于DSS增强技术引入提供技术指导。            </td>
+        </tr>
+        <tr>
+            <td  >
+            <div align="center">附议单位<br>（3个以上）</div>
+            </td>
+            <td  colspan="4" width="600">
+            &nbsp;四川通信科研规划设计有限责任公司,&nbsp;华为技术有限公司,&nbsp;中兴通讯股份有限公司            </td>
+        </tr>
+        <tr>
+            <td  >
+            <div align="center">参加单位意见</div>
+            </td>
+            <td  colspan="4" width="600">
+            <div>&nbsp;</div>
+            <div align="right">年&nbsp;&nbsp;&nbsp; 月&nbsp;&nbsp;&nbsp; 日</div>
+            </td>
+        </tr>
+        <tr>
+            <td >
+            <div align="center">工作组意见</div>
+            </td>
+            <td  colspan="4" width="600">
+            <div>&nbsp;</div>
+            <div align="right">年&nbsp;&nbsp;&nbsp; 月&nbsp;&nbsp;&nbsp;日</div>
+            </td>
+        </tr>
+        <tr>
+            <td >
+            <div align="center">技术工作委员会意见</div>
+            </td>
+            <td colspan="4" width="600">
+            <div>&nbsp;</div>
+            <div align="right">年&nbsp;&nbsp;&nbsp;月&nbsp;&nbsp;&nbsp;日</div>
+            </td>
+        </tr>
+        <tr>
+            <td  >
+            <div align="center">协会意见</div>
+            </td>
+            <td  colspan="4" width="600">
+            <div>&nbsp;</div>
+            <div align="right">年&nbsp;&nbsp;&nbsp;月&nbsp;&nbsp;&nbsp;日</div>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2" >
+            <div align="center">牵头单位信息</div>
+            </td>
+            <td width="150" height="50">
+            <div>单位名称中国电信集团有限公司</div>
+            </td>
+            <td width="150">
+            <div>联系人：</div>
+            </td>
+            <td  colspan="2">
+            <div>联系方式：-</div>
+            </td>
+        </tr>
+        <tr>
+            <td width="150" height="50">
+            <div>项目负责人：许森</div>
+            </td>
+            <td width="150">
+            <div>联系方式：13321171322-xusen@chinatelecom.cn</div>
+            </td>
+            <td  colspan="2">
+            <div>标准化人员证书编号：201306065</div>
+            </td>
+        </tr>
+        <tr>
+            <td  >
+            <div align="center">备注</div>
+            </td>
+            <td  colspan="4" width="600">
+            &nbsp;            </td>
+        </tr>
+    </tbody>
+</table></html>

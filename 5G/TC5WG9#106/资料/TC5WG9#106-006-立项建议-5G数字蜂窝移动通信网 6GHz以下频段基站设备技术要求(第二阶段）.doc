@@ -1,0 +1,232 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+		xmlns:w="urn:schemas-microsoft-com:office:word"
+		xmlns="http://www.w3.org/TR/REC-html40"><style type="text/css">
+table{table-layout:   fixed;}
+td{word-break:   break-all;   word-wrap:break-word;} 
+</style> 
+<table border="0" cellspacing="0" cellpadding="0" align="center" width="700">
+<tr><td align="center">行业标准项目建议书</td></tr>
+</table><br><br> 
+<table border="1" cellspacing="0" cellpadding="0" align="center" width="700">
+        <tr>
+            <td >
+              <div align="center">建议项目名称<br>(中文)</div></td>
+            <td width="250" colspan="3" align="center">&nbsp;5G数字蜂窝移动通信网 6GHz以下频段基站设备技术要求(第二阶段）            </td>
+            <td >
+            <div align="center">建议项目名称<br>(英文)</div>
+            </td>
+            <td  colspan="2" align="center">&nbsp;5G Digital Cellular Mobile Telecommunication Network Technical Specification of gNB Equipment（Phase 2）            </td>
+        </tr>
+        <tr>
+            <td  height="25">
+            <div align="center">制定或修订</div></td>
+            <td width="80" >
+            <div>
+              <!--<input name="checkbox" type="checkbox" value="checkbox" checked  >-->
+              ■              制定</div>
+            </td>
+            <td width="170" colspan="2" >
+            <div>
+              <!--<input name="checkbox2" type="checkbox" value="checkbox" >-->
+              □              修订</div>
+            </td>
+            <td >
+            <div align="center">被修订标准号</div>
+            </td>
+            <td  colspan="2">
+            <div align="center">&nbsp;</div>
+            </td>
+        </tr>
+        <tr>
+            <td  height="25" width="100">
+          <div align="center">采用程度</div>          </td>
+            <td width="80">
+            <div>
+              <!--<input name="checkbox5" type="checkbox" value="checkbox" >-->
+              □              IDT</div>
+            </td>
+            <td width="85">
+            <div>
+              <!--<input name="checkbox6" type="checkbox" value="checkbox" >-->
+              □              MOD</div>
+            </td>
+            <td width="85">
+            <div>
+              <!--<input name="checkbox7" type="checkbox" value="checkbox" >-->
+              □              NEQ</div>
+            </td>
+            <td width="100">
+            <div align="center">采标号</div>
+            </td>
+            <td  colspan="2">
+            <div align="center">&nbsp;</div>
+            </td>
+        </tr>
+        <tr>
+            <td  >
+              <div align="center">国际标准名称<br>(中文)</div></td>
+            <td width="250" colspan="3">
+            &nbsp;
+            </td>
+            <td >
+            <div align="center">国际标准名称<br>(英文)</div>
+            </td>
+            <td colspan="2">
+            &nbsp;            </td>
+        </tr>
+        <tr>
+            <td  height="25">
+            <div align="center">采用快速程序</div>
+            </td>
+            <td width="250" colspan="3">
+            <div>
+              <!--<input name="checkbox8" type="checkbox" value="checkbox" >-->
+              □              FTP</div>
+            </td>
+            <td >
+            <div align="center">快速程序代码</div>
+            </td>
+            <td width="125">
+            <div>
+             <!-- <input name="checkbox3" type="checkbox" value="checkbox" > -->
+              □ 
+              B</div>
+            </td>
+            <td >
+            <div>
+              <!--<input name="checkbox4" type="checkbox" value="checkbox" >-->
+              □ 
+              C</div>
+            </td>
+        </tr>
+        <tr>
+            <td  height="25">
+            <div align="center">ICS分类号</div>
+            </td>
+            <td width="250" colspan="3">
+            &nbsp;33.060.99            </td>
+            <td >
+            <div align="center">中国标准分类号</div>
+            </td>
+            <td width="250" colspan="2">
+            &nbsp;M36            </td>
+        </tr>
+        <tr>
+            <td  height="25">
+            <div align="center">牵头单位</div>
+            </td>
+            <td width="250" colspan="3">
+            &nbsp;中国信息通信研究院&nbsp;中国电信集团有限公司&nbsp;中国移动通信集团有限公司&nbsp;中国联合网络通信集团有限公司&nbsp;            </td>
+            <td >
+            <div align="center">完成年限</div>
+            </td>
+            <td width="250" colspan="2">
+            &nbsp;2021            </td>
+        </tr>
+        <tr>
+            <td  height="25">
+            <div align="center">参加单位</div>
+            </td>
+            <td width="600" colspan="6">
+            &nbsp;华为技术有限公司&nbsp;中兴通讯股份有限公司&nbsp;中国信息通信科技集团有限公司&nbsp;爱立信（中国）通信有限公司&nbsp;上海诺基亚贝尔股份有限公司&nbsp;            </td>
+        </tr>
+        <tr>
+            <td  >
+            <div align="center">目的、意义或必要性</div>
+            </td>
+            <td width="600" colspan="6">
+            &nbsp;3GPP在Release&nbsp;15版本制定了5G基础版本，国内也制定了行业标准《5G数字蜂窝移动通信网&nbsp;6GHz以下频段基站设备技术要求（第一阶段）》和《5G数字蜂窝移动通信网&nbsp;6GHz以下频段基站设备测试方法（第一阶段）》，明确了基于Release&nbsp;15的5G基站的功能和技术要求。基于Release&nbsp;15版本的5G网络已经广泛商用。<br />
+3GPP&nbsp;Release&nbsp;16版本即将完成，对增强移动宽带(eMBB)、物联网等方面引入了大量新的增强技术，将能进一步提升5G网络的业务承载能力。<br />
+面向5G商用网络的发展演进，基于Release&nbsp;16版本，制定面向增强移动宽带(eMBB)应用的5G基站的新版本行业标准，将有助于我国5G商用网络的增强演进。<br />
+            </td>
+        </tr>
+        <tr>
+            <td  >
+            <div align="center">范围和主要</div>
+            <div align="center">技术内容</div>
+            </td>
+            <td width="600" colspan="6">
+              &nbsp;本标准基于3GPP&nbsp;Release&nbsp;16协议标准，面向eMBB应用，针对6GHz以下频段5G基站，根据国内运营需求和产业进展考虑引入R16的增强技术（如MIMO增强、移动性增强等），制定相应的基站功能要求、性能要求、接口要求和射频指标要求等。            </td>
+        </tr>
+        <tr>
+            <td  >
+            <div align="center">国内外情况</div>
+            <div align="center">简要说明</div>
+            </td>
+            <td width="600" colspan="6">
+            &nbsp;1、&nbsp;国内外对该技术研究情况简要说明：CCSA制定了行业标准《5G数字蜂窝移动通信网&nbsp;6GHz以下频段基站设备技术要求（第一阶段）》和《5G数字蜂窝移动通信网&nbsp;6GHz以下频段基站设备测试方法（第一阶段）》，3GPP即将完成Release&nbsp;16技术标准制定，这些工作可以作为本项目的基础。<br />
+2、&nbsp;项目对应国际标准或国外先进标准的情况：&nbsp;3GPP&nbsp;Release&nbsp;16版本相关技术标准，如TS38.300、TS38.21X系列、TS38.32X系列、TS38.331、TS38.42X系列、TS38.41X系列、TS38.141等规范了5G基站相关功能、接口和性能要求。<br />
+            </td>
+        </tr>
+        <tr><td colspan="7" width="700">
+	        <table width="698" border="1">
+	        	<tr><td align="center"  height="100">牵头单位</td><td width="130">中国信息通信研究院<br>中国电信集团有限公司<br>中国移动通信集团有限公司<br>中国联合网络通信集团有限公司<br><br><div align="right">月&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日</div></td><td align="center" >标准化技术组织</td><td width="130">中国通信标准化协会<br><br><br><div align="right">月&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日</div></td><td align="center" >部委托机构</td><td >中国通信标准化协会<br><br><br><div align="right">月&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日</div></td></tr>
+          </table>
+        </td></tr>
+        <!--
+        <tr>
+            <td  height="50">
+              <div align="center">牵头单位</div>
+            </td>
+            <td width="400" colspan="3">
+            <div align="left">&nbsp;中国信息通信研究院&nbsp;中国电信集团有限公司&nbsp;中国移动通信集团有限公司&nbsp;中国联合网络通信集团有限公司&nbsp;</div>
+            <div align="right">年&nbsp;月&nbsp;日</div>
+            </td>
+            <td >
+              <div align="center">归口单</div>
+            </td>
+            <td width="196" colspan="2">
+            <div align="left">&nbsp;</div>
+            <div align="right">年&nbsp;月&nbsp;日</div>
+            </td>
+        </tr>
+        -->
+</table><br><table border="1" cellspacing="0" cellpadding="0" align="center" width="700">
+    <tbody>
+        <tr>
+            <td width="100" height="40"><div align="center">技术工作委员会/工作组</div></td>
+            <td width="250"> TC5:无线通信/WG9:移动通信无线 <br></td>
+                        <td width="100"><div align="center">项目类型</div></td>
+            <td width="250">
+            <div>标准项目 ■&nbsp;标准预研项目□</div>
+            </td>
+                    </tr>
+        <tr>
+            <td width="100" height="40"><div align="center">附议单位<br>
+            （3个以上）
+            </div></td>
+            <td width="600" colspan="3">            </td>
+        </tr>
+        <tr>
+            <td width="100" height="80"><div align="center">参加单位意见</div></td>
+            <td width="600"  colspan="3">
+            <br><div align="right">年<span>&nbsp;&nbsp;&nbsp; </span>月<span>&nbsp;&nbsp;&nbsp; </span>日</div>
+            </td>
+        </tr>
+        <tr>
+            <td height="100"><div align="center">工作组意见</div></td>
+            <td colspan="3" width="600">
+            <br><div align="right">年<span>&nbsp;&nbsp;&nbsp; </span>月<span>&nbsp;&nbsp;&nbsp; </span>日</div>
+            </td>
+        </tr>
+        <tr>
+            <td width="100" height="80"><div align="center">技术工作委员会意见</div></td>
+            <td width="600" colspan="3">
+            <br><div align="right">年<span>&nbsp;&nbsp;&nbsp; </span>月<span>&nbsp;&nbsp;&nbsp; </span>日</div>
+            </td>
+        </tr>
+        <tr>
+                    <td width="100" height="80" align="center">牵头单位信息</td>
+            <td  colspan="3" height="100"><table width="100%" border="0" height="100%">
+			<tr><td width="200" height="50">单位名称:<br>
+			  中国信息通信研究院</td><td width="200">联系人:<br></td><td >联系方式:<br>-</td></tr>
+			<tr><td>项目负责人:<br>徐霞艳</td><td>联系方式:<br>18610846372-xuxiayan@caict.ac.cn</td><td>标准化人员证书编号:<br></td></tr>
+			</table></td>
+        </tr>
+        <tr>
+            <td width="100" height="60" align="center">备注</td>
+            <td width="600" colspan="3">&nbsp;            
+            </td>
+        </tr>
+    </tbody>
+</table></html>

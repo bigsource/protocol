@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified">
+        <xs:annotation>
+            <xs:documentation>
+                Info for MSISDN less short messsage service
+            </xs:documentation>
+        </xs:annotation>
+  
+  <xs:element name="short-message-info" type="Tshort-message-info"/>
+
+  <xs:complexType name="Tshort-message-info">
+    <xs:sequence>
+      <xs:element name="To" type="xs:anyURI" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="From" type="xs:anyURI" minOccurs="0" maxOccurs="1"/>
+	  <xs:element name="Correlation-ID" type="Tcorrelation-id" minOccurs="0" maxOccurs="1"/>
+	  <xs:element name="Delivery-Outcome" type="xs:string" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="anyExt" type="anyExtType" minOccurs="0" />
+      <xs:any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:anyAttribute namespace="##any" processContents="lax"/>
+  </xs:complexType>
+
+  <xs:complexType name="Tcorrelation-id">
+	<xs:sequence>
+      <xs:element name="Sender" type="xs:anyURI" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="Receiver" type="xs:anyURI" minOccurs="1" maxOccurs="1"/>
+	  <xs:element name="HLR-ID" type="xs:string" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="anyExt" type="anyExtType" minOccurs="0" />
+      <xs:any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:anyAttribute namespace="##any" processContents="lax"/>
+  </xs:complexType>
+ 
+  <xs:complexType name="anyExtType">
+    <xs:sequence>
+      <xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+</xs:schema>
